@@ -212,3 +212,79 @@ body {
 	margin-left: 55px;
 	margin-bottom: 25px;
 }
+
+
+
+
+
+/*====================================================================*/
+/**======================== ABOUT GTA ONLINE ========================**/
+
+.about-gta-online{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.about-gta-online .details-gta-online .bckgd-section2{
+   margin-top: -0px;
+   width: 1900px;
+   height: 1076px;
+   object-fit: cover;
+}
+
+
+.about-gta-online .contents-gta-online{
+    position: absolute;
+    top: 0;
+    display: flex;
+    gap: 20px;
+}
+
+
+.about-gta-online .contents-gta-online img{
+    margin-top: 30px;
+    margin-left: 900px; 
+    margin-bottom: 20px;
+    width: 52%;
+   
+}
+
+
+.about-gta-online .information-gta-online{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start; 
+   font-family: "ChaletComprime";
+
+}
+
+
+.about-gta-online .information-gta-online img{
+    padding-top: 100px;
+    padding-bottom: 40px;
+    width: 150px;
+    margin-left: -1560px;
+    margin-right: 0;
+
+}
+
+.about-gta-online .information-gta-online h1{
+    font-family: 'ChaletComprime';
+    font-size: 60px;
+    margin-left: -1560px;
+    margin-right: 0; 
+    margin-bottom: 18px;
+}
+
+
+.about-gta-online .information-gta-online p{
+    font-family: 'Chalet';
+    font-size: 18px;
+    line-height: 1.8;
+    margin-left: -1560px; 
+    margin-right: 0; 
+    margin-bottom: 25px;
+}
