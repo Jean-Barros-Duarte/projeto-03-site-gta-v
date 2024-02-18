@@ -1,6 +1,6 @@
 body {
-  overflow-x: hidden;  
-  background-color: #000000;
+    overflow-x: hidden;  
+  background-color: #161616;
   color: #fff;
 }
 
@@ -362,8 +362,11 @@ body {
 }
 
 
-.about-gta-characters .details-gta-characters{
-    object-fit: cover;
+.about-gta-characters .details-gta-characters .bckgd-section3{
+   margin-top: -0px;
+   width: 1920px;
+   height: 1076px;
+   object-fit: cover;
 }
 
 
@@ -409,4 +412,140 @@ body {
     margin-bottom: 0;
     font-size: 20px;
     line-height: 1.5;
+}
+
+
+/*=====================================================================*/
+/**======================== ABOUT GTA TO-BUY ========================**/
+
+
+
+.btn-plataform{
+    color: #fff;
+    width: 100%;
+}
+
+
+.to-buy-gta .cover-gta{
+    width: 270px;
+}
+
+
+.to-buy-gta{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+}
+
+.to-buy-gta .title{
+    font-family: 'ChaletComprime';
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+.to-buy-gta .cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    z-index: 1;
+    
+}
+
+
+.to-buy-gta .card-gta .bckgd-card{
+    position: absolute;
+    width: 46.4%;
+    height: 46.4%;
+    top: 476.5%;
+    border-radius: 10px;
+    z-index: -1; 
+    
+    
+    mask-image: linear-gradient(to bottom, #000000, transparent 70%);
+ 
+   
+}
+
+
+.to-buy-gta .card-gta {
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+    background-color: #000000;
+    width: 50%;
+    border-radius: 10px;
+    padding: 80px;
+    gap: 40px;
+    z-index: 1;
+   
+}
+
+
+
+.to-buy-gta .informations{
+    display: flex;
+    flex-direction: column;
+	gap: 30px;
+}
+
+.to-buy-gta .informations h3{
+    font-family: 'ChaletComprime';
+	font-size: 52px;
+	font-weight: 700;
+
+}
+
+.to-buy-gta .informations p{
+    color: #e8e8e8;
+	font-family: 'Chalet';
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+
+.to-buy-gta .informations .plataforms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+	justify-content: center;
+}
+
+
+.to-buy-gta .btn-plataform .plataforms{
+    margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+    gap: 20px;
+    transition: all .3s ease-in;
+	display: none;
+	opacity: 0;
+}
+
+
+.to-buy-gta .btn-plataform .plataforms.buy{
+    display: flex;
+	opacity: 1;
+}
+
+
+.btn-plataform{
+    background-color: rgba(255, 255, 255, .1);
+	border: 0.5px solid #fff;
+	border-radius: 4px;
+	font-family: 'ChaletComprime';
+	font-size: 28px;
+	text-align: center;
+	padding: 20px 40px;
+	text-transform: uppercase;
+	width: 50%;
+	transition: all .3s ease-in;
+}
+
+.bckgd-card::before,
+.bckgd-card::after {
+    z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.89));;
 }
