@@ -14,7 +14,7 @@
   </head>
 
   <body>
-    <header class="cabecalho">
+    <header class="cabecalho" id="cabecalho">
       <div class="logo-menu">
         <img src="src/img/logo-rockstar.svg" alt="Logo da Rockstar Games" />
         <hr />
@@ -334,9 +334,17 @@
         <p>Rockstar Games</p>
         <p>2024 &copy; - Site desenvolvido por <strong>Jean Barros Duarte</strong></p>
       </div>
-    </footer>
 
+      <div class="circle-top" data-anima="scroll">
+        <a href="#cabecalho">
+          <div class="topo">
+            <img src="src/img/circle-up.svg" alt="botao voltar ao topo">
+          </div>
+        </a>
+      </div>
+    </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="src/js/animateScrollReveal.js"></script>
+    <script src="src/js/animateScrollTop.js"></script>
   </body>
 </html>
