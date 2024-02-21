@@ -85,20 +85,13 @@ ScrollReveal().reveal(".about-gta-online .details-gta-online .information-gta-on
 /*==================== ANIMATE SECTION ABOUT-GTA-CHARACTERS ====================*/
 
 
-ScrollReveal().reveal(".about-gta-characters .video-gta-characters .video source",{
+ScrollReveal().reveal(".about-gta-characters .video-gta-characters .description h3",{
     ...animeScrollOption,
     origin:"bottom",
     delay: 600,
 });
 
-
-ScrollReveal().reveal(".about-gta-characters .video-gta-characters .video-gta .description h3",{
-    ...animeScrollOption,
-    origin:"bottom",
-    delay: 600,
-});
-
-ScrollReveal().reveal(".about-gta-characters .video-gta-characters .video-gta .description p",{
+ScrollReveal().reveal(".about-gta-characters .video-gta-characters .description p",{
     ...animeScrollOption,
     origin:"bottom",
     delay: 600,

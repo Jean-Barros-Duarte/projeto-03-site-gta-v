@@ -1,7 +1,12 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+
 body {
   overflow-x: hidden;  
   background-color: #161616;
-  color: #fff;
+  color: #fff;  
 }
 
 
@@ -251,6 +256,7 @@ body {
 .about-gta-online{
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -273,10 +279,9 @@ body {
 
 
 .about-gta-online .contents-gta-online img{
-
-    margin-top: 30px;
+    margin-top: 100px;
     margin-left: 160px; 
-	margin-bottom: 20px;
+
     width: 50%;
    
 }
@@ -293,7 +298,8 @@ body {
 .about-gta-online .information-gta-online img{
     padding-top: 100px;
     padding-bottom: 40px;
-    width: 16%;
+    width: 20%;
+    
 
 }
 
