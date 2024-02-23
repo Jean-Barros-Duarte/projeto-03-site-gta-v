@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/style.css" />
     <link rel="stylesheet" href="src/css/fonts.css"/>
+    <link rel="stylesheet" href="src/css/modalTrailer.css"/>
   </head>
 
   <body>
@@ -51,10 +52,15 @@
           </p>
 
           <div class="botoes"> 
-            <a class="btn-trailer" href="">Assistir Trailer</a>
+            <a class="btn-trailer" onclick="abrirVideo();">Assistir Trailer</a>
             <a class="btn-buy" href="to-buy">Compre Já</a>
           </div>
 
+      
+           <div class="videoTrailer">
+             <video src="src/video/GTA 5 - Trailer.mp4" controls="true"></video>
+             <img class="videoClose" src="src/img/close.png" onclick="fecharVideo();" alt="icone de fechar o video">
+          </div>
       </div>
     </main>
 
@@ -344,6 +350,7 @@
       </div>
     </footer>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="src/js/watchVideoTrailer.js"></script>
     <script src="src/js/animateScrollReveal.js"></script>
     <script src="src/js/animateScrollTop.js"></script>
   </body>
